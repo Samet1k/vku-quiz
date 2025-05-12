@@ -20,7 +20,7 @@ const io = require("socket.io")(server, {
   transports: ["websocket"],
 });
 
-const pubClient = createClient({ url: "redis://localhost:6379" });
+const pubClient = createClient({ url: "redis://Samet-free-db:6379" });
 const subClient = pubClient.duplicate();
 
 Promise.all([
