@@ -1,0 +1,42 @@
+.waiting-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    gap: 30px;
+  }
+  
+  .waiting-container h2 {
+    font-size: 24px;
+    color: #0033cc;
+    text-align: center;
+  }
+  
+  .waiting-box {
+    border: 3px solid #0033cc;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .waiting-box p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0033cc;
+  }
+  
+
+  @media (max-width: 431px) {
+
+    .waiting-container h2 {
+      width: 318px;
+      text-align: center;
+    }
+
+    .waiting-box {
+      width: 319px;
+    }
+
+  
+  }

@@ -1,0 +1,52 @@
+.stage {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.answers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+/* ---- */
+.btn:not(.btn-group .btn) {
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+/* ---- */
+
+
+
+
+
+
+
+.btn-outline-primary {
+  border-width: 2px;
+}
+
+.bg-success {
+  background-color: #28a745 !important;
+}
+
+.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.d-none {
+  display: none !important;
+}

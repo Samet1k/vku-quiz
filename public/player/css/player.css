@@ -1,0 +1,45 @@
+.join-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  
+  #joinForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 15px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  #joinForm label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0033cc;
+  }
+  
+  #joinForm input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #0033cc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  #joinForm button {
+    background-color: #0033cc;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #joinForm button:hover {
+    background-color: #001f99;
+  }
+  

@@ -1,0 +1,112 @@
+
+
+.admin-dashboard .qr-section {
+    margin-top: 20px;
+  }
+  
+  .qr-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .start-btn {
+    background-color: #245edb;
+    color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .create-btn {
+    background-color: #245edb;
+    color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .promo-label {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .promo-code {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .player-count {
+    margin-top: 150px;
+    margin-right: 100px;
+    font-size: 20px;
+  }
+  
+  #playerCount {
+    font-weight: bold;
+  }
+
+  .question-box {
+    border: 5px solid #0e4fe6;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px auto;
+    width: 80%;
+    /* max-width: 600px; */
+    border-radius: 10px;
+    color: #0e4fe6;
+    font-weight: bold;
+  }
+
+
+
+
+@media (max-width: 981px) {
+  .player-count {
+    margin-top: 150px;
+    margin-right: 50px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 873px) {
+  .player-count {
+    margin-top: 480px;
+    margin-right: 220px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 521px) {
+  .player-count {
+    margin-top: 480px;
+    margin-right: 100px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 446px) {
+  .player-count {
+    margin-top: 480px;
+    margin-right: 55px;
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 435px) {
+  .player-count {
+    margin-top: 480px;
+    margin-right: 40px;
+    font-size: 20px;
+  }
+}
+
+
+

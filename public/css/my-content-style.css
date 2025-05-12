@@ -1,0 +1,58 @@
+.content-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.qr-code {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.start-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-btn:hover {
+  background-color: #1e40af;
+}
+
+
+.start-btn {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 32px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .start-btn:hover {
+    background-color: #1e40af;
+  }
+
+
+  
+  .player-count {
+    position: absolute;
+    right: 40px;
+    top: 60px;
+    font-size: 16px;
+    color: #111;
+  }
+
+
+
+
