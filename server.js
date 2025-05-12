@@ -4,8 +4,8 @@ const mongoose = require("mongoose");
 const { createAdapter } = require("@socket.io/redis-adapter");
 const { createClient } = require("redis");
 const path = require("path");
-const socketHandler = require("./sockets/socketHandler");
-const Player = require("./models/Player");
+const socketHandler = require("./server/sockets/socketHandler");
+const Player = require("./server/models/Player");
 const cors = require("cors");
 
 const app = express();
