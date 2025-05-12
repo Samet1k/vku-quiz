@@ -21,7 +21,9 @@ const io = require("socket.io")(server, {
 });
 
 
-const pubClient = createClient({ url: "redis-cli -u redis://default:azAsNfoVlH2rfxyDL2WbAWIBWES8FN0m@redis-19019.c228.us-central1-1.gce.redns.redis-cloud.com:19019" });
+const pubClient = createClient({
+  url: "redis://default:azAsNfoVlH2rfxyDL2WbAWIBWES8FN0m@redis-19019.c228.us-central1-1.gce.redns.redis-cloud.com:19019"
+});
 const subClient = pubClient.duplicate();
 
 Promise.all([
